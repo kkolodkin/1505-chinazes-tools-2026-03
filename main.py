@@ -1,6 +1,6 @@
 import test
 import Game1
-
+import Game2
 
 def print_menu():
     print(
@@ -10,7 +10,8 @@ Menu options
 
 1. Run Test Module
 2. Guess the number
-3. Exit
+3. Cows game
+4. Exit
 ============================
 ''')
 
@@ -26,6 +27,8 @@ while 1:
     elif user_choice == '2':
         Game1.run()
     elif user_choice == '3':
+        Game2.run()
+    elif user_choice == '4':
         print("Bye!")
         break
     else:
