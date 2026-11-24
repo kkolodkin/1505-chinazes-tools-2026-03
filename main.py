@@ -3,6 +3,7 @@ import Game1
 import Game2
 import Game3
 import Game4
+import Game5
 
 def print_menu():
     print(
@@ -36,6 +37,9 @@ while 1:
     elif user_choice == '5':
         Game4.run()
     elif user_choice == '6':
+        Game5.run()
+        break
+    elif user_choice == '7':
         print("Bye!")
         break
     else:
