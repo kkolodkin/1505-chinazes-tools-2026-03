@@ -2,6 +2,7 @@ import test
 import Game1
 import Game2
 import Game3
+import Game4
 
 def print_menu():
     print(
@@ -13,7 +14,7 @@ Menu options
 2. Guess the number
 3. Cows game
 4. Tic Tac Toe
-5. Exit
+5. 
 ============================
 ''')
 
@@ -33,6 +34,8 @@ while 1:
     elif user_choice == '4':
         Game3.run()
     elif user_choice == '5':
+        Game4.run()
+    elif user_choice == '6':
         print("Bye!")
         break
     else:
